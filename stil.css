@@ -1,0 +1,131 @@
+p.a { 
+	word-spacing: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 50px;
+}
+.body {
+	width:100%;
+	height:250%;
+	background:url("arkaplan.jpg");
+	background-attachment: fixed;
+	background-position:0 -40;
+}
+.banner {
+	width:100%;
+	height:140px;
+	background:#FEFEF4;
+	margin:auto 0;
+	position:fixed;
+	top:-20px;
+	left:0px;
+	right:0px;
+	border-bottom:5px solid black;
+}
+.content {
+	width:70%;
+	height:auto;
+	background:white;
+	margin:350;
+	margin-top:200px;
+	border:2px solid black;
+	border-radius:20px;
+}
+.content_2 {
+    width:70%;
+	height:auto +50;
+	background:white;
+	margin-left:350;
+	margin-top:30;
+	border:2px solid black;
+	border-radius:20px;
+}
+.content_left {
+	width:265px;
+	height:auto;
+	background:lightblue;
+	float:left;
+	border:5px solid green;
+	border-radius:5px 5px 5px;
+	margin-top:200;
+	margin-left:25;
+	position:fixed;
+	top:-50px;
+}
+.content_middle {
+	width:69%;
+	height:75px;
+	background:white;
+	border:6px double #d0ff01;
+	border-radius:10px;
+	margin-top:-333;
+	margin-left:360;
+}
+.footer {
+	width:100%;
+	height:auto;
+	background:url("footer.png");
+	margin-top:400;
+	border:2px solid black;
+}
+*{margin:0; padding:0;}
+.menu {
+	width:1200px;
+	height:50px;
+	margin:0 auto;
+	position:fixed;
+	top:70;
+	left:350;
+}
+.menu ul li {
+	float:left;
+	list-style-type:none;
+	padding:0 10px;
+}
+.menu ul li a {
+	color:black;
+	font:20px Verdana;
+	text-decoration:none;
+	display:block;
+	padding:10px 70px;
+	border-bottom:2px solid black;
+	font-family: 'Coustard';
+}
+.menu ul li a:hover {
+	background:#b2ffa7;
+	color:black;
+	transition:0.7s;
+	text-decoration:none;
+	border-radius:50px 10px 50px;
+	border-bottom:4px solid black;
+}
+.menu ul li ul li a {
+	background:white;
+	color:black;
+	font:20px Verdana;
+	text-decoration:none;
+	display:block;
+	border-bottom:1px solid blue;
+	font-family: 'Coustard';
+	border-radius:50px 10px 50px;
+}
+.menu ul li ul li a:hover {
+	padding-left: 30px;
+	border-bottom:1px solid blue;
+}
+.menu ul li ul{
+  display: none;
+}
+.menu ul li:hover ul{
+  display: block;
+}
+.yuvarla {
+	border-radius:10%;
+	border-bottom:3px solid black;
+	margin-left:300px;
+}
+.resim:hover {
+	opacity:0.7;
+	border-radius:17%;
+	transition:0.5s;
+}
